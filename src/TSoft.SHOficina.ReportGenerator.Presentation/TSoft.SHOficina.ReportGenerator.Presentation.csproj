@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Report Generator</AssemblyName>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TSoft.SHOficina.ReportGenerator.Application\TSoft.SHOficina.ReportGenerator.Application.csproj" />
+    <ProjectReference Include="..\TSoft.SHOficina.ReportGenerator.Domain\TSoft.SHOficina.ReportGenerator.Domain.csproj" />
+    <ProjectReference Include="..\TSoft.SHOficina.ReportGenerator.Infrastructure\TSoft.SHOficina.ReportGenerator.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
