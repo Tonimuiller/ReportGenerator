@@ -8,7 +8,12 @@
     <AssemblyName>Report Generator</AssemblyName>
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
+    <ApplicationIcon>report-generator.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="report-generator.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TSoft.SHOficina.ReportGenerator.Application\TSoft.SHOficina.ReportGenerator.Application.csproj" />

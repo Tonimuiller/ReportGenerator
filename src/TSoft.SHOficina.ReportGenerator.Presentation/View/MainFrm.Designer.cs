@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             openFileDialog = new OpenFileDialog();
             btSelectSourceFile = new Button();
             txtSourceFile = new TextBox();
@@ -84,6 +85,7 @@
             Controls.Add(btSelectSourceFile);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "MainFrm";
             StartPosition = FormStartPosition.CenterScreen;
