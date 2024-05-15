@@ -37,7 +37,7 @@
             // 
             // openFileDialog
             // 
-            openFileDialog.Filter = "Excel|*.xlsx;*.xls";
+            openFileDialog.Filter = "Excel|*.xlsx";
             openFileDialog.Title = "Selecione um arquivo fonte para gerar o relatório";
             // 
             // btSelectSourceFile
@@ -72,7 +72,7 @@
             // 
             // saveFileDialog
             // 
-            saveFileDialog.Filter = "Excel|*.xlsx;*.xls";
+            saveFileDialog.Filter = "Excel|*.xlsx";
             // 
             // MainFrm
             // 
